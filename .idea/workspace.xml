@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae57169-d082-4223-9df5-758c7b2bb627" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Worker.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$Task.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application.class" afterPath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jobready/threading/Application.java" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Application.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,21 +22,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
               <folding>
-                <element signature="e#256#837#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#990#1499#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
-                <element signature="e#2125#2126#0" expanded="true" />
-                <element signature="e#2168#2169#0" expanded="true" />
-                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Sequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +105,8 @@
                 <element signature="e#52677#52678#0" expanded="false" />
                 <element signature="e#53771#53772#0" expanded="false" />
                 <element signature="e#53800#53801#0" expanded="false" />
+                <element signature="e#66072#66970#0" expanded="false" />
+                <element signature="e#66969#66970#0" expanded="false" />
                 <element signature="e#67537#67538#0" expanded="false" />
                 <element signature="e#67563#67564#0" expanded="false" />
                 <element signature="e#77386#77387#0" expanded="false" />
@@ -109,6 +132,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>void run()</find>
@@ -127,6 +157,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/jobready/threading/Worker.java" />
+        <option value="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" />
       </list>
     </option>
   </component>
@@ -158,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +222,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -617,12 +649,13 @@
       <option name="presentableId" value="Default" />
       <updated>1510617962459</updated>
       <workItem from="1510617964123" duration="3442000" />
-      <workItem from="1510689482856" duration="8273000" />
+      <workItem from="1510689482856" duration="9705000" />
+      <workItem from="1510775459013" duration="4737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11715000" />
+    <option name="totallyTimeSpent" value="17884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="2568" height="1388" extended-state="0" />
@@ -631,7 +664,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -678,16 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#837#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#990#1499#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,6 +764,87 @@
             <element signature="e#52677#52678#0" expanded="false" />
             <element signature="e#53771#53772#0" expanded="false" />
             <element signature="e#53800#53801#0" expanded="false" />
+            <element signature="e#66072#66970#0" expanded="false" />
+            <element signature="e#66969#66970#0" expanded="false" />
+            <element signature="e#67537#67538#0" expanded="false" />
+            <element signature="e#67563#67564#0" expanded="false" />
+            <element signature="e#77386#77387#0" expanded="false" />
+            <element signature="e#77458#77459#0" expanded="false" />
+            <element signature="e#78644#78645#0" expanded="false" />
+            <element signature="e#78679#78680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#2023#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24486">
+          <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#79677#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5560#5561#0" expanded="false" />
+            <element signature="e#5601#5602#0" expanded="false" />
+            <element signature="e#6683#6684#0" expanded="false" />
+            <element signature="e#6723#6724#0" expanded="false" />
+            <element signature="e#14796#14797#0" expanded="false" />
+            <element signature="e#14860#14861#0" expanded="false" />
+            <element signature="e#15480#15481#0" expanded="false" />
+            <element signature="e#15546#15547#0" expanded="false" />
+            <element signature="e#15734#15735#0" expanded="false" />
+            <element signature="e#15805#15806#0" expanded="false" />
+            <element signature="e#17015#17016#0" expanded="false" />
+            <element signature="e#17082#17083#0" expanded="false" />
+            <element signature="e#17388#17389#0" expanded="false" />
+            <element signature="e#17429#17430#0" expanded="false" />
+            <element signature="e#18347#18348#0" expanded="false" />
+            <element signature="e#18389#18390#0" expanded="false" />
+            <element signature="e#18901#18902#0" expanded="false" />
+            <element signature="e#18944#18945#0" expanded="false" />
+            <element signature="e#21244#21245#0" expanded="false" />
+            <element signature="e#21288#21289#0" expanded="false" />
+            <element signature="e#31990#31991#0" expanded="false" />
+            <element signature="e#32029#32030#0" expanded="false" />
+            <element signature="e#38413#38414#0" expanded="false" />
+            <element signature="e#38471#38472#0" expanded="false" />
+            <element signature="e#39008#39009#0" expanded="false" />
+            <element signature="e#39051#39052#0" expanded="false" />
+            <element signature="e#40325#40326#0" expanded="false" />
+            <element signature="e#40370#40371#0" expanded="false" />
+            <element signature="e#44660#44661#0" expanded="false" />
+            <element signature="e#44691#44692#0" expanded="false" />
+            <element signature="e#45492#45493#0" expanded="false" />
+            <element signature="e#45535#45536#0" expanded="false" />
+            <element signature="e#45792#45793#0" expanded="false" />
+            <element signature="e#45820#45821#0" expanded="false" />
+            <element signature="e#46678#46679#0" expanded="false" />
+            <element signature="e#46747#46748#0" expanded="false" />
+            <element signature="e#48080#48081#0" expanded="false" />
+            <element signature="e#48153#48154#0" expanded="false" />
+            <element signature="e#52615#52616#0" expanded="false" />
+            <element signature="e#52677#52678#0" expanded="false" />
+            <element signature="e#53771#53772#0" expanded="false" />
+            <element signature="e#53800#53801#0" expanded="false" />
+            <element signature="e#66072#66970#0" expanded="false" />
+            <element signature="e#66969#66970#0" expanded="false" />
             <element signature="e#67537#67538#0" expanded="false" />
             <element signature="e#67563#67564#0" expanded="false" />
             <element signature="e#77386#77387#0" expanded="false" />
@@ -819,6 +924,8 @@
             <element signature="e#52677#52678#0" expanded="false" />
             <element signature="e#53771#53772#0" expanded="false" />
             <element signature="e#53800#53801#0" expanded="false" />
+            <element signature="e#66072#66970#0" expanded="false" />
+            <element signature="e#66969#66970#0" expanded="false" />
             <element signature="e#67537#67538#0" expanded="false" />
             <element signature="e#67563#67564#0" expanded="false" />
             <element signature="e#77386#77387#0" expanded="false" />
@@ -829,20 +936,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#837#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#990#1499#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
