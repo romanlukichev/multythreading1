@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae57169-d082-4223-9df5-758c7b2bb627" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Worker.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application$Task.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application.class" afterPath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/multythreading1/com/jobready/threading/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/jobready/threading/Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/jobready/threading/Worker.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jobready/threading/Application.java" afterPath="$PROJECT_DIR$/src/com/jobready/threading/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multythreading1.iml" afterPath="$PROJECT_DIR$/multythreading1.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,109 +24,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Sequence.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="InventoryManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22605">
-              <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
-                <element signature="e#0#79677#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5560#5561#0" expanded="false" />
-                <element signature="e#5601#5602#0" expanded="false" />
-                <element signature="e#6683#6684#0" expanded="false" />
-                <element signature="e#6723#6724#0" expanded="false" />
-                <element signature="e#14796#14797#0" expanded="false" />
-                <element signature="e#14860#14861#0" expanded="false" />
-                <element signature="e#15480#15481#0" expanded="false" />
-                <element signature="e#15546#15547#0" expanded="false" />
-                <element signature="e#15734#15735#0" expanded="false" />
-                <element signature="e#15805#15806#0" expanded="false" />
-                <element signature="e#17015#17016#0" expanded="false" />
-                <element signature="e#17082#17083#0" expanded="false" />
-                <element signature="e#17388#17389#0" expanded="false" />
-                <element signature="e#17429#17430#0" expanded="false" />
-                <element signature="e#18347#18348#0" expanded="false" />
-                <element signature="e#18389#18390#0" expanded="false" />
-                <element signature="e#18901#18902#0" expanded="false" />
-                <element signature="e#18944#18945#0" expanded="false" />
-                <element signature="e#21244#21245#0" expanded="false" />
-                <element signature="e#21288#21289#0" expanded="false" />
-                <element signature="e#31990#31991#0" expanded="false" />
-                <element signature="e#32029#32030#0" expanded="false" />
-                <element signature="e#38413#38414#0" expanded="false" />
-                <element signature="e#38471#38472#0" expanded="false" />
-                <element signature="e#39008#39009#0" expanded="false" />
-                <element signature="e#39051#39052#0" expanded="false" />
-                <element signature="e#40325#40326#0" expanded="false" />
-                <element signature="e#40370#40371#0" expanded="false" />
-                <element signature="e#44660#44661#0" expanded="false" />
-                <element signature="e#44691#44692#0" expanded="false" />
-                <element signature="e#45492#45493#0" expanded="false" />
-                <element signature="e#45535#45536#0" expanded="false" />
-                <element signature="e#45792#45793#0" expanded="false" />
-                <element signature="e#45820#45821#0" expanded="false" />
-                <element signature="e#46678#46679#0" expanded="false" />
-                <element signature="e#46747#46748#0" expanded="false" />
-                <element signature="e#48080#48081#0" expanded="false" />
-                <element signature="e#48153#48154#0" expanded="false" />
-                <element signature="e#52615#52616#0" expanded="false" />
-                <element signature="e#52677#52678#0" expanded="false" />
-                <element signature="e#53771#53772#0" expanded="false" />
-                <element signature="e#53800#53801#0" expanded="false" />
-                <element signature="e#66072#66970#0" expanded="false" />
-                <element signature="e#66969#66970#0" expanded="false" />
-                <element signature="e#67537#67538#0" expanded="false" />
-                <element signature="e#67563#67564#0" expanded="false" />
-                <element signature="e#77386#77387#0" expanded="false" />
-                <element signature="e#77458#77459#0" expanded="false" />
-                <element signature="e#78644#78645#0" expanded="false" />
-                <element signature="e#78679#78680#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Runnable.java">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="567">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="22" />
               <folding>
-                <element signature="e#0#2023#0" expanded="false" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,11 +88,22 @@
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Application.java" />
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Worker.java" />
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/ThreadingInventoryManager/Sequence.java" />
+        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java" />
+        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" />
+        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java" />
+        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -212,25 +152,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadingInventoryManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="threading" />
+              <option name="myItemId" value="com.jobready.inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multythreading1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multythreading1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThreadingInventoryManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Pro2015\JQuery\multythreading1\ThreadingInventoryManager\src" />
+      <recent name="I:\Pro2015\JQuery\multythreading1\ThreadingInventoryManager" />
+      <recent name="I:\Pro2015\JQuery\multythreading1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -650,28 +626,37 @@
       <updated>1510617962459</updated>
       <workItem from="1510617964123" duration="3442000" />
       <workItem from="1510689482856" duration="9705000" />
-      <workItem from="1510775459013" duration="4737000" />
+      <workItem from="1510775459013" duration="5459000" />
+      <workItem from="1510863945521" duration="10893000" />
+      <workItem from="1511215710771" duration="626000" />
     </task>
+    <task id="LOCAL-00001" summary="Thread synchronization">
+      <created>1510794623866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510794623866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17884000" />
+    <option name="totallyTimeSpent" value="30125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="2568" height="1388" extended-state="0" />
+    <frame x="-4" y="-4" width="2568" height="1388" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31796876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22617188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -688,6 +673,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16256939" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -698,6 +684,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Thread synchronization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread synchronization" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -707,151 +697,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Application.java" />
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Worker.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24486">
           <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#79677#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5560#5561#0" expanded="false" />
-            <element signature="e#5601#5602#0" expanded="false" />
-            <element signature="e#6683#6684#0" expanded="false" />
-            <element signature="e#6723#6724#0" expanded="false" />
-            <element signature="e#14796#14797#0" expanded="false" />
-            <element signature="e#14860#14861#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-            <element signature="e#15734#15735#0" expanded="false" />
-            <element signature="e#15805#15806#0" expanded="false" />
-            <element signature="e#17015#17016#0" expanded="false" />
-            <element signature="e#17082#17083#0" expanded="false" />
-            <element signature="e#17388#17389#0" expanded="false" />
-            <element signature="e#17429#17430#0" expanded="false" />
-            <element signature="e#18347#18348#0" expanded="false" />
-            <element signature="e#18389#18390#0" expanded="false" />
-            <element signature="e#18901#18902#0" expanded="false" />
-            <element signature="e#18944#18945#0" expanded="false" />
-            <element signature="e#21244#21245#0" expanded="false" />
-            <element signature="e#21288#21289#0" expanded="false" />
-            <element signature="e#31990#31991#0" expanded="false" />
-            <element signature="e#32029#32030#0" expanded="false" />
-            <element signature="e#38413#38414#0" expanded="false" />
-            <element signature="e#38471#38472#0" expanded="false" />
-            <element signature="e#39008#39009#0" expanded="false" />
-            <element signature="e#39051#39052#0" expanded="false" />
-            <element signature="e#40325#40326#0" expanded="false" />
-            <element signature="e#40370#40371#0" expanded="false" />
-            <element signature="e#44660#44661#0" expanded="false" />
-            <element signature="e#44691#44692#0" expanded="false" />
-            <element signature="e#45492#45493#0" expanded="false" />
-            <element signature="e#45535#45536#0" expanded="false" />
-            <element signature="e#45792#45793#0" expanded="false" />
-            <element signature="e#45820#45821#0" expanded="false" />
-            <element signature="e#46678#46679#0" expanded="false" />
-            <element signature="e#46747#46748#0" expanded="false" />
-            <element signature="e#48080#48081#0" expanded="false" />
-            <element signature="e#48153#48154#0" expanded="false" />
-            <element signature="e#52615#52616#0" expanded="false" />
-            <element signature="e#52677#52678#0" expanded="false" />
-            <element signature="e#53771#53772#0" expanded="false" />
-            <element signature="e#53800#53801#0" expanded="false" />
-            <element signature="e#66072#66970#0" expanded="false" />
-            <element signature="e#66969#66970#0" expanded="false" />
-            <element signature="e#67537#67538#0" expanded="false" />
-            <element signature="e#67563#67564#0" expanded="false" />
-            <element signature="e#77386#77387#0" expanded="false" />
-            <element signature="e#77458#77459#0" expanded="false" />
-            <element signature="e#78644#78645#0" expanded="false" />
-            <element signature="e#78679#78680#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#2023#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24486">
-          <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#79677#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5560#5561#0" expanded="false" />
-            <element signature="e#5601#5602#0" expanded="false" />
-            <element signature="e#6683#6684#0" expanded="false" />
-            <element signature="e#6723#6724#0" expanded="false" />
-            <element signature="e#14796#14797#0" expanded="false" />
-            <element signature="e#14860#14861#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-            <element signature="e#15734#15735#0" expanded="false" />
-            <element signature="e#15805#15806#0" expanded="false" />
-            <element signature="e#17015#17016#0" expanded="false" />
-            <element signature="e#17082#17083#0" expanded="false" />
-            <element signature="e#17388#17389#0" expanded="false" />
-            <element signature="e#17429#17430#0" expanded="false" />
-            <element signature="e#18347#18348#0" expanded="false" />
-            <element signature="e#18389#18390#0" expanded="false" />
-            <element signature="e#18901#18902#0" expanded="false" />
-            <element signature="e#18944#18945#0" expanded="false" />
-            <element signature="e#21244#21245#0" expanded="false" />
-            <element signature="e#21288#21289#0" expanded="false" />
-            <element signature="e#31990#31991#0" expanded="false" />
-            <element signature="e#32029#32030#0" expanded="false" />
-            <element signature="e#38413#38414#0" expanded="false" />
-            <element signature="e#38471#38472#0" expanded="false" />
-            <element signature="e#39008#39009#0" expanded="false" />
-            <element signature="e#39051#39052#0" expanded="false" />
-            <element signature="e#40325#40326#0" expanded="false" />
-            <element signature="e#40370#40371#0" expanded="false" />
-            <element signature="e#44660#44661#0" expanded="false" />
-            <element signature="e#44691#44692#0" expanded="false" />
-            <element signature="e#45492#45493#0" expanded="false" />
-            <element signature="e#45535#45536#0" expanded="false" />
-            <element signature="e#45792#45793#0" expanded="false" />
-            <element signature="e#45820#45821#0" expanded="false" />
-            <element signature="e#46678#46679#0" expanded="false" />
-            <element signature="e#46747#46748#0" expanded="false" />
-            <element signature="e#48080#48081#0" expanded="false" />
-            <element signature="e#48153#48154#0" expanded="false" />
-            <element signature="e#52615#52616#0" expanded="false" />
-            <element signature="e#52677#52678#0" expanded="false" />
-            <element signature="e#53771#53772#0" expanded="false" />
-            <element signature="e#53800#53801#0" expanded="false" />
-            <element signature="e#66072#66970#0" expanded="false" />
-            <element signature="e#66969#66970#0" expanded="false" />
-            <element signature="e#67537#67538#0" expanded="false" />
-            <element signature="e#67563#67564#0" expanded="false" />
-            <element signature="e#77386#77387#0" expanded="false" />
-            <element signature="e#77458#77459#0" expanded="false" />
-            <element signature="e#78644#78645#0" expanded="false" />
-            <element signature="e#78679#78680#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,9 +740,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
           <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#2023#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Sequence.java" />
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Application.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24486">
+          <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,99 +757,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#2023#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Application.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24486">
+          <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22605">
+        <state relative-caret-position="33">
           <caret line="742" column="21" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#79677#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5560#5561#0" expanded="false" />
-            <element signature="e#5601#5602#0" expanded="false" />
-            <element signature="e#6683#6684#0" expanded="false" />
-            <element signature="e#6723#6724#0" expanded="false" />
-            <element signature="e#14796#14797#0" expanded="false" />
-            <element signature="e#14860#14861#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-            <element signature="e#15734#15735#0" expanded="false" />
-            <element signature="e#15805#15806#0" expanded="false" />
-            <element signature="e#17015#17016#0" expanded="false" />
-            <element signature="e#17082#17083#0" expanded="false" />
-            <element signature="e#17388#17389#0" expanded="false" />
-            <element signature="e#17429#17430#0" expanded="false" />
-            <element signature="e#18347#18348#0" expanded="false" />
-            <element signature="e#18389#18390#0" expanded="false" />
-            <element signature="e#18901#18902#0" expanded="false" />
-            <element signature="e#18944#18945#0" expanded="false" />
-            <element signature="e#21244#21245#0" expanded="false" />
-            <element signature="e#21288#21289#0" expanded="false" />
-            <element signature="e#31990#31991#0" expanded="false" />
-            <element signature="e#32029#32030#0" expanded="false" />
-            <element signature="e#38413#38414#0" expanded="false" />
-            <element signature="e#38471#38472#0" expanded="false" />
-            <element signature="e#39008#39009#0" expanded="false" />
-            <element signature="e#39051#39052#0" expanded="false" />
-            <element signature="e#40325#40326#0" expanded="false" />
-            <element signature="e#40370#40371#0" expanded="false" />
-            <element signature="e#44660#44661#0" expanded="false" />
-            <element signature="e#44691#44692#0" expanded="false" />
-            <element signature="e#45492#45493#0" expanded="false" />
-            <element signature="e#45535#45536#0" expanded="false" />
-            <element signature="e#45792#45793#0" expanded="false" />
-            <element signature="e#45820#45821#0" expanded="false" />
-            <element signature="e#46678#46679#0" expanded="false" />
-            <element signature="e#46747#46748#0" expanded="false" />
-            <element signature="e#48080#48081#0" expanded="false" />
-            <element signature="e#48153#48154#0" expanded="false" />
-            <element signature="e#52615#52616#0" expanded="false" />
-            <element signature="e#52677#52678#0" expanded="false" />
-            <element signature="e#53771#53772#0" expanded="false" />
-            <element signature="e#53800#53801#0" expanded="false" />
-            <element signature="e#66072#66970#0" expanded="false" />
-            <element signature="e#66969#66970#0" expanded="false" />
-            <element signature="e#67537#67538#0" expanded="false" />
-            <element signature="e#67563#67564#0" expanded="false" />
-            <element signature="e#77386#77387#0" expanded="false" />
-            <element signature="e#77458#77459#0" expanded="false" />
-            <element signature="e#78644#78645#0" expanded="false" />
-            <element signature="e#78679#78680#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jobready/threading/Sequence.java">
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Worker.java" />
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Application.java" />
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/Sequence.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java" />
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>multythreading1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
