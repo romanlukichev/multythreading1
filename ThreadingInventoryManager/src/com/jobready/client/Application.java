@@ -10,21 +10,20 @@ public class Application {
 
     public static void main(String[] args) throws InterruptedException {
 
-    InventoryManager manager;
+        InventoryManager manager;
         manager = new InventoryManager();
-
 
         InventoryTask invTask1 = new InventoryTask(manager);
         DisplayTask  dispTask1 = new DisplayTask(manager);
 
-        Thread t1 = new Thread(invTask1);
-        Thread t2 = new Thread(dispTask1);
+        Thread inventoryThread = new Thread(invTask1);
+        Thread displayThread = new Thread(dispTask1);
 
-
-
-
-            t1.start();
-            Thread.sleep(2000);
-            t2.start();
+            inventoryThread.start();
+             Thread.sleep(2000);
+//            Thread.sleep(20000);
+           // inventoryThread.join(); // we'll wait until the inventoryThread has completed it's task
+        // and joins the min thread
+            displayThread.start();
     }
 }

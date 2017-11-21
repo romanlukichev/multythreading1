@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae57169-d082-4223-9df5-758c7b2bb627" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/DisplayTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java" afterPath="$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -31,10 +30,11 @@
       <file leaf-file-name="InventoryManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="297">
+              <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#376#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="726">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,9 +113,9 @@
         <option value="$PROJECT_DIR$/src/com/jobready/threading/Sequence.java" />
         <option value="$PROJECT_DIR$/src/ThreadingInventoryManager/Sequence.java" />
         <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java" />
-        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" />
         <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/DisplayTask.java" />
         <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java" />
+        <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java" />
         <option value="$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java" />
       </list>
     </option>
@@ -133,10 +133,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2556" />
+    <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1088" />
+    <option name="width" value="2568" />
+    <option name="height" value="1388" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -674,7 +674,7 @@
       <workItem from="1510689482856" duration="9705000" />
       <workItem from="1510775459013" duration="5459000" />
       <workItem from="1510863945521" duration="10893000" />
-      <workItem from="1511215710771" duration="4751000" />
+      <workItem from="1511215710771" duration="8733000" />
     </task>
     <task id="LOCAL-00001" summary="Thread synchronization">
       <created>1510794623866</created>
@@ -690,14 +690,21 @@
       <option name="project" value="LOCAL" />
       <updated>1511217407368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Thread safety with collection - error corrected">
+      <created>1511222863917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511222863917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34250000" />
+    <option name="totallyTimeSpent" value="38232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2556" y="-4" width="1928" height="1088" extended-state="6" />
+    <frame x="-4" y="-4" width="2568" height="1388" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -710,12 +717,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.146875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47851562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="75" y="121" width="348" height="1053" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="75" y="121" width="348" height="1053" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -740,7 +747,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Thread synchronization" />
     <MESSAGE value="Thread safety with collection - contains an error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread safety with collection - contains an error" />
+    <MESSAGE value="Thread safety with collection - error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread safety with collection - error corrected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,6 +773,7 @@
           <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#376#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,11 +856,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="495">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,33 +882,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryTask.java">
+    <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com.jobready.inventory/InventoryManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="297">
+          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#376#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThreadingInventoryManager/src/com/jobready/client/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="726">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

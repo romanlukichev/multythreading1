@@ -2,12 +2,13 @@ package com.jobready.inventory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * Created by Roman on 16.11.2017.
  */
 public class InventoryManager {
-    List<Product> SoldProguctsList = new ArrayList<Product>(); // both threads will be accessing this List
+    List<Product> SoldProguctsList = new CopyOnWriteArrayList<>(); // both threads will be accessing this List
     List<Product> PurchasedProguctsList = new ArrayList<Product>();
 
     public void populateSoldProducts(){
