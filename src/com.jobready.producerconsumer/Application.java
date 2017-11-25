@@ -1,20 +1,21 @@
 package com.jobready.producerconsumer;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 /**
  * Created by Roman on 21.11.2017.
  */
 public class Application {
     public static void main(String[] args) throws InterruptedException {
-        List<Integer> questionList = new ArrayList<Integer>();
 
-        Thread t1 = new Thread(new Producer(questionList));
-        Thread t2 = new Thread(new Consumer(questionList));
+        BlockingQueue<Integer> questionQueue = new ArrayBlockingQueue<Integer>(5);
+
+        Thread t1 = new Thread(new Producer(questionQueue));
+        Thread t2 = new Thread(new Consumer(questionQueue));
 
         t1.start();
-        //Thread.sleep(3000);
+
         t2.start();
     }
 }
